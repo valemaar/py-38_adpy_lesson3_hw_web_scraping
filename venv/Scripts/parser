@@ -1,0 +1,7 @@
+#!C:\Users\Hp\PycharmProjects\netology_py-38\py-38_module_2_advanced_python\3.3_Web_scraping\py-38_adpy_lesson3_hw_web_scraping\venv\Scripts\python.exe
+import os
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from htmlparser import standalone
+
+standalone.main()
